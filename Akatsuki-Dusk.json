@@ -1,0 +1,175 @@
+{
+  "name": "Akatsuki Dusk",
+  "description": "Akatsuki-inspired smoky plum and charcoal theme with muted crimson accents. The matching wallpaper is supplied separately.",
+  "authors": [
+    {
+      "name": "ChatGPT"
+    }
+  ],
+  "semanticColors": {
+    "BACKGROUND_PRIMARY": [
+      "#302B33",
+      "#302B33",
+      "#09080B"
+    ],
+    "BACKGROUND_SECONDARY": [
+      "#28232C",
+      "#28232C",
+      "#09080B"
+    ],
+    "BACKGROUND_SECONDARY_ALT": [
+      "#39313B",
+      "#39313B",
+      "#09080B"
+    ],
+    "BACKGROUND_TERTIARY": [
+      "#241F27",
+      "#241F27",
+      "#09080B"
+    ],
+    "BACKGROUND_ACCENT": [
+      "#59404A",
+      "#59404A",
+      "#09080B"
+    ],
+    "BACKGROUND_FLOATING": [
+      "#332B35",
+      "#332B35",
+      "#09080B"
+    ],
+    "BACKGROUND_MENTIONED": [
+      "#60414B",
+      "#60414B",
+      "#09080B"
+    ],
+    "BACKGROUND_MOBILE_PRIMARY": [
+      "#302B33",
+      "#302B33",
+      "#09080B"
+    ],
+    "BACKGROUND_MOBILE_SECONDARY": [
+      "#28232C",
+      "#28232C",
+      "#09080B"
+    ],
+    "BACKGROUND_MODIFIER_HOVER": [
+      "#51404A",
+      "#51404A",
+      "#09080B"
+    ],
+    "BACKGROUND_MODIFIER_ACTIVE": [
+      "#624652",
+      "#624652",
+      "#09080B"
+    ],
+    "BACKGROUND_MODIFIER_SELECTED": [
+      "#59404A",
+      "#59404A",
+      "#09080B"
+    ],
+    "BACKGROUND_NESTED_FLOATING": [
+      "#28232C",
+      "#28232C",
+      "#09080B"
+    ],
+    "BACKGROUND_MODIFIER_ACCENT": [
+      "#51404A",
+      "#51404A",
+      "#09080B"
+    ],
+    "CHANNELS_DEFAULT": [
+      "#D2C7C9",
+      "#D2C7C9",
+      "#D2C7C9"
+    ],
+    "CHANNEL_ICON": [
+      "#C8B8BD",
+      "#C8B8BD",
+      "#C8B8BD"
+    ],
+    "TEXTBOX_MARKDOWN_SYNTAX": [
+      "#C77C89",
+      "#C77C89",
+      "#C77C89"
+    ],
+    "TEXT_NORMAL": [
+      "#F0E9E9",
+      "#F0E9E9",
+      "#F0E9E9"
+    ],
+    "TEXT_MUTED": [
+      "#B7A9AE",
+      "#B7A9AE",
+      "#B7A9AE"
+    ],
+    "INTERACTIVE_ACTIVE": [
+      "#FFF5F5",
+      "#FFF5F5",
+      "#FFF5F5"
+    ],
+    "INTERACTIVE_NORMAL": [
+      "#D08A96",
+      "#D08A96",
+      "#D08A96"
+    ],
+    "HEADER_PRIMARY": [
+      "#F7EEEE",
+      "#F7EEEE",
+      "#F7EEEE"
+    ],
+    "HEADER_SECONDARY": [
+      "#C9B9BE",
+      "#C9B9BE",
+      "#C9B9BE"
+    ],
+    "CHAT_BACKGROUND": [
+      "#302B33",
+      "#302B33",
+      "#302B33"
+    ],
+    "TEXT_LINK": [
+      "#D98B98",
+      "#D98B98",
+      "#D98B98"
+    ],
+    "TEXT_BRAND": [
+      "#D98B98",
+      "#D98B98",
+      "#D98B98"
+    ],
+    "BACKGROUND_MESSAGE_HOVER": [
+      "#51404A",
+      "#51404A",
+      "#09080B"
+    ],
+    "INPUT_BACKGROUND": [
+      "#241F27",
+      "#241F27",
+      "#241F27"
+    ],
+    "POPOUT": [
+      "#332B35",
+      "#332B35",
+      "#332B35"
+    ]
+  },
+  "rawColors": {
+    "BRAND_500": "#B96C7A",
+    "BRAND_600": "#A65A69",
+    "PRIMARY_100": "#F7EEEE",
+    "PRIMARY_200": "#E6DADD",
+    "PRIMARY_300": "#D2C1C6",
+    "PRIMARY_360": "#C2AEB5",
+    "PRIMARY_400": "#B7A9AE",
+    "PRIMARY_500": "#8E7C84",
+    "PRIMARY_600": "#594F59",
+    "PRIMARY_630": "#514752",
+    "PRIMARY_700": "#39313B",
+    "PRIMARY_800": "#302B33",
+    "PRIMARY_900": "#241F27",
+    "WHITE_500": "#F0E9E9",
+    "RED_500": "#B96C7A",
+    "RED_600": "#A65A69"
+  },
+  "spec": 2
+}
