@@ -1,0 +1,142 @@
+/**
+ * @name Akatsuki Red
+ * @author ChatGPT
+ * @description Deep crimson Akatsuki-inspired theme for Endcord Mobile.
+ * @version 1.0.0
+ */
+
+:root,
+.theme-dark {
+  --background-primary: #100609 !important;
+  --background-secondary: #18080d !important;
+  --background-secondary-alt: #210a11 !important;
+  --background-tertiary: #0a0407 !important;
+  --background-accent: #3a0b17 !important;
+  --background-floating: #1b080e !important;
+  --background-mobile-primary: #100609 !important;
+  --background-mobile-secondary: #18080d !important;
+
+  --channeltextarea-background: #210a11 !important;
+  --input-background: #210a11 !important;
+  --modal-background: #18080d !important;
+  --modal-footer-background: #100609 !important;
+
+  --brand-experiment: #c91532 !important;
+  --brand-experiment-560: #a80f28 !important;
+  --brand-experiment-600: #8e0d22 !important;
+  --brand-experiment-100: #ffe6eb !important;
+  --brand-experiment-200: #ffc2ce !important;
+  --brand-experiment-300: #ff8da3 !important;
+  --brand-experiment-400: #f34d6c !important;
+  --brand-experiment-500: #dc2445 !important;
+  --brand-experiment-700: #71091b !important;
+
+  --text-normal: #f3e9eb !important;
+  --text-muted: #a88b92 !important;
+  --text-link: #ff526f !important;
+  --header-primary: #fff1f3 !important;
+  --header-secondary: #c7aab1 !important;
+  --interactive-normal: #c7aab1 !important;
+  --interactive-hover: #fff1f3 !important;
+  --interactive-active: #ffffff !important;
+  --interactive-muted: #68434c !important;
+
+  --scrollbar-thin-thumb: #7e172b !important;
+  --scrollbar-thin-track: transparent !important;
+  --scrollbar-auto-thumb: #7e172b !important;
+  --scrollbar-auto-track: #100609 !important;
+  --border-subtle: #3b111d !important;
+  --border-faint: #2a0d15 !important;
+  --background-modifier-hover: #35101b !important;
+  --background-modifier-active: #4a1221 !important;
+  --background-modifier-selected: #42111e !important;
+  --background-modifier-accent: #5b1728 !important;
+}
+
+/* Main surfaces */
+[class*="sidebar_"],
+[class*="container_"],
+[class*="chat_"],
+[class*="members_"],
+[class*="nowPlayingColumn_"] {
+  background-color: #100609 !important;
+}
+
+[class*="panels_"],
+[class*="containerDefault_"],
+[class*="searchBar_"],
+[class*="channelTextArea_"],
+[class*="scrollableContainer_"] {
+  background-color: #1b080e !important;
+  border-color: #481321 !important;
+}
+
+[class*="selected_"],
+[class*="modeSelected_"] [class*="content_"] {
+  background: linear-gradient(90deg, #571326 0%, #2a0b14 100%) !important;
+}
+
+[class*="content_"]:hover,
+[class*="clickable_"]:hover {
+  background-color: #32101a !important;
+}
+
+[class*="category_"],
+[class*="name_"][class*="container_"] {
+  color: #e43b58 !important;
+}
+
+[class*="divider_"],
+[class*="separator_"] {
+  border-color: #481321 !important;
+}
+
+[class*="unread_"],
+[class*="bar_"] {
+  background-color: #e52c4e !important;
+}
+
+[class*="mentioned_"] {
+  background: #4a1421 !important;
+  border-left: 3px solid #ed3154 !important;
+}
+
+[class*="replying_"] {
+  background: #2a0d16 !important;
+}
+
+button,
+[class*="lookFilled_"][class*="colorBrand_"] {
+  --button-background: #b91330 !important;
+}
+
+[class*="lookFilled_"][class*="colorBrand_"] {
+  background: linear-gradient(135deg, #d51d3d, #8e0d25) !important;
+}
+
+[class*="lookFilled_"][class*="colorBrand_"]:hover {
+  background: #ed3154 !important;
+}
+
+/* Crimson cloud-like accent motif, kept subtle and behind content. */
+[class*="guilds_"] {
+  background:
+    radial-gradient(ellipse at 50% 12%, rgba(195, 18, 49, .12), transparent 42%),
+    #080406 !important;
+}
+
+[class*="title_"],
+[class*="header_"] {
+  border-color: #3b111d !important;
+}
+
+/* Keep message text readable over dark surfaces. */
+[class*="messageContent_"],
+[class*="markup_"] {
+  color: #f0e5e8 !important;
+}
+
+::selection {
+  color: #ffffff;
+  background: #a91531;
+}
